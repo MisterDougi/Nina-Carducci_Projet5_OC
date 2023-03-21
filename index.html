@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 	<title>Nina Carducci</title>
+	<meta property="og:title" content="Nina Carducci">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="instagram:card" content="./assets/images/instagram.png">
 	<meta property="instagram:url" content="https://www.instagram.com/ninacarducci.photo/?hl=fr">
@@ -20,11 +21,17 @@
 	<script src="./assets/scripts.js"></script>
 	<script type="application/ld+json">
 		{
-		  "@type": "website",
-		  "Nom": "Nina Carducci",
-		  "Adresse": "68 avenue Alsace-Lorraine, 33200 Bordeaux",
-		  "Numéro de téléphone": "05 56 67 78 89",
-		  "Horaires": "Du lundi au vendredi de 10 h à 19 h"
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "telephone": "05 56 67 78 89",
+		  "adress":{
+			  "@type": "PostalAddress",
+			  "streetAddress": "68 avenue Alsace-Lorraine",
+			  "addressLocality": "Bordeaux",
+			  "postalCode": "33200",
+			  "addressCountry": "FR"
+			},
+			"openingHours": "mo-fr 10am-7pm"
 		}
 		</script>
 </head>
